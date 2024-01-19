@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+}
+/* Utils */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background: tan;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+nav > a {
+    margin: 0 0.5rem;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: whitesmoke;
+  box-shadow: 5px 5px 0 blue;
+}
+nav > a:hover {
+}
